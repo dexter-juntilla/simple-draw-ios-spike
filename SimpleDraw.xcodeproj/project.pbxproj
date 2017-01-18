@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A23055EF1E2E06120019538E /* FormMDSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23055EE1E2E06120019538E /* FormMDSignature.swift */; };
+		A23055F11E2E17150019538E /* FormMDSignature.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23055F01E2E17150019538E /* FormMDSignature.xib */; };
 		A2C436471E2D9E3D004EB3CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C436461E2D9E3D004EB3CB /* AppDelegate.swift */; };
 		A2C436491E2D9E3D004EB3CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C436481E2D9E3D004EB3CB /* ViewController.swift */; };
 		A2C4364C1E2D9E3D004EB3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C4364A1E2D9E3D004EB3CB /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A23055EE1E2E06120019538E /* FormMDSignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormMDSignature.swift; sourceTree = "<group>"; };
+		A23055F01E2E17150019538E /* FormMDSignature.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FormMDSignature.xib; sourceTree = "<group>"; };
 		A2C436431E2D9E3D004EB3CB /* SimpleDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C436461E2D9E3D004EB3CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2C436481E2D9E3D004EB3CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				A2C4364D1E2D9E3D004EB3CB /* Assets.xcassets */,
 				A2C4364F1E2D9E3D004EB3CB /* LaunchScreen.storyboard */,
 				A2C436521E2D9E3D004EB3CB /* Info.plist */,
+				A23055EE1E2E06120019538E /* FormMDSignature.swift */,
+				A23055F01E2E17150019538E /* FormMDSignature.xib */,
 			);
 			path = SimpleDraw;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				A2C436511E2D9E3D004EB3CB /* LaunchScreen.storyboard in Resources */,
 				A2C4364E1E2D9E3D004EB3CB /* Assets.xcassets in Resources */,
 				A2C4364C1E2D9E3D004EB3CB /* Main.storyboard in Resources */,
+				A23055F11E2E17150019538E /* FormMDSignature.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23055EF1E2E06120019538E /* FormMDSignature.swift in Sources */,
 				A2C436491E2D9E3D004EB3CB /* ViewController.swift in Sources */,
 				A2C436471E2D9E3D004EB3CB /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +310,7 @@
 				A2C436571E2D9E3D004EB3CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
